@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>درباره من — فاز 2</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">درباره من</h1>
+      <nav class="main-nav" aria-label="منوی اصلی">
+        <a href="index.html" class="nav-link">خانه</a>
+        <a href="about.html" class="nav-link">درباره من</a>
+        <a href="portfolio.html" class="nav-link">نمونه کارها</a>
+        <a href="contact.html" class="nav-link">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article>
+      <figure>
+        <img src="profile.jpg" alt="عکس پروفایل" class="profile" onerror="this.style.display='none'">
+        <figcaption>نمونه تصویر پروفایل</figcaption>
+      </figure>
+
+      <section aria-labelledby="intro">
+        <h2 id="intro">معرفی کوتاه</h2>
+        <p class="about-text">من یک هنرجوی طراحی وب هستم. در فاز دوم، روی بهبود دسترسی، اعتبارسنجی فرم و آماده‌سازی برای ارزیابی تمرکز کردم.</p>
+      </section>
+
+      <section aria-labelledby="skills">
+        <h3 id="skills">مهارت‌ها</h3>
+        <ul>
+          <li>HTML5 و ساختار معنایی</li>
+          <li>CSS (واکنش‌گرایی، Flexbox، Grid)</li>
+          <li>JavaScript (اعتبارسنجی و تعامل با کاربر)</li>
+        </ul>
+
+        <h4>توضیحات بیشتر</h4>
+        <dl>
+          <dt>HTML</dt><dd>ساختاردهی و رعایت اصول دسترسی</dd>
+          <dt>CSS</dt><dd>طراحی واکنش‌گرا و RTL</dd>
+          <dt>JS</dt><dd>اعتبارسنجی فرم و پیاده‌سازی چک‌کنندهٔ خودکار</dd>
+        </dl>
+      </section>
+
+      <div class="actions">
+        <button id="runChecksAbout" class="btn">اجرای تست‌ها (این صفحه)</button>
+      </div>
+      <div id="checkResults" class="check-results" aria-live="polite"></div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 طراحی شده توسط من</p>
+      <p class="creator">amir zgohi create this site</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
